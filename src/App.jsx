@@ -14,6 +14,7 @@ function App() {
    <Title subtitle="Our Program" title="What We Offer" ></Title>
     <Program/>
     <About/>
+    <Title subtitle="Gallery" title="Campus Photos"></Title>
     </div>
     </>
     
