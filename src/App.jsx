@@ -1,4 +1,5 @@
 import About from './Components/About/About'
+import Campus from './Components/Campus/Campus'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 import Program from './Components/Programs/Program'
@@ -15,6 +16,8 @@ function App() {
     <Program/>
     <About/>
     <Title subtitle="Gallery" title="Campus Photos"></Title>
+    <Campus/>
+    <Title subtitle="Testimononials" title="What Student Says"></Title>
     </div>
     </>
     
