@@ -41,10 +41,10 @@ const Testimonial = () => {
         <h3>Elsa Shawn</h3>
         <span>Edusity, USA</span>
       </div>
+      <p>
+        The education I received at Edusity has been truly transformative. The courses are highly interactive and taught by industry-leading professionals who inspire learning every day.
+      </p>
     </div>
-    <p>
-      The education I received at Edusity has been truly transformative. The courses are highly interactive and taught by industry-leading professionals who inspire learning every day.
-    </p>
   </div>
 </li>
 <li>
@@ -52,13 +52,13 @@ const Testimonial = () => {
     <div className="user_info">
       <img src={user_2} alt="" />
       <div>
-        <h3>Willian Jackson</h3>
+        <h3>Elsa Shawn</h3>
         <span>Edusity, USA</span>
       </div>
+      <p>
+        Choosing Edusity for my studies was a life-changing decision. The university's dedication to excellence and innovation has helped me achieve my academic and personal goals.
+      </p>
     </div>
-    <p>
-      Choosing Edusity for my studies was a life-changing decision. The university's dedication to excellence and innovation has helped me achieve my academic and personal goals.
-    </p>
   </div>
 </li>
 <li>
@@ -66,13 +66,13 @@ const Testimonial = () => {
     <div className="user_info">
       <img src={user_3} alt="" />
       <div>
-        <h3>Sophia Adams</h3>
+        <h3>Elsa Shawn</h3>
         <span>Edusity, USA</span>
       </div>
+      <p>
+        At Edusity, I discovered a passion for learning that I never knew I had. The faculty's support and the university's focus on holistic development have been invaluable.
+      </p>
     </div>
-    <p>
-      At Edusity, I discovered a passion for learning that I never knew I had. The faculty's support and the university's focus on holistic development have been invaluable.
-    </p>
   </div>
 </li>
 <li>
@@ -80,16 +80,15 @@ const Testimonial = () => {
     <div className="user_info">
       <img src={user_4} alt="" />
       <div>
-        <h3>Daniel Roberts</h3>
+        <h3>Elsa Shawn</h3>
         <span>Edusity, USA</span>
       </div>
+      <p>
+        The vibrant and inclusive campus environment at Edusity has made my academic journey unforgettable. I've gained the skills and confidence needed for a successful career.
+      </p>
     </div>
-    <p>
-      The vibrant and inclusive campus environment at Edusity has made my academic journey unforgettable. I've gained the skills and confidence needed for a successful career.
-    </p>
   </div>
 </li>
-
         </ul>
       </div>
     </div>
