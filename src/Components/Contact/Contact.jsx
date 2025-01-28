@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact_col">
-        <h3>Send Us A Messae <img src={ms_icon} alt="" /></h3>
+        <h3>Send Us A Message <img src={ms_icon} alt="" /></h3>
         <p>Reach out to us by filling out the form below, and our dedicated team will promptly address your queries with care and attention. Whether you have questions, need assistance, or want to share feedback, we are here to ensure all your concerns are answered and provide you with the best support possible!</p>
         <ul>
           <li><img src={mail_icon} alt="" />contact@gmail.com</li>
