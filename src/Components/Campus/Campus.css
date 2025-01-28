@@ -1,15 +1,25 @@
-.campus{
+.campus {
   margin: 80px auto;
-  width:90%;
+  width: 90%;
   text-align: center;
 }
-.gallery{
+.gallery {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-.gallery img{
+.gallery img {
   width: 22%;
   border-radius: 10px;
+}
+/*----------------------media----------------------*/
+@media (max-width: 650px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .gallery img {
+    width: 48%;
+    margin-bottom: 25px;
+  }
 }

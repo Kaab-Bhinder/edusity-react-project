@@ -33,62 +33,63 @@ const Testimonial = () => {
       <img className='back_btn' src={back_icon} alt="" onClick={prev}/>
       <div className="slider">
         <ul ref={slider}>
-          <li>
-            <div className="slide">
-              <div className="user_info">
-                <img src={user_1} alt="" />
-                <div>
-                  <h3>Mohsin Dalla</h3>
-                  <span>Edusity,USA</span>
-                </div>
-              </div>
-              <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user_info">
-                <img src={user_2} alt="" />
-                <div>
-                  <h3>Willian Jackson</h3>
-                  <span>Edusity,USA</span>
-                </div>
-              </div>
-              <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user_info">
-                <img src={user_3} alt="" />
-                <div>
-                  <h3>Willian Jackson</h3>
-                  <span>Edusity,USA</span>
-                </div>
-              </div>
-              <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div className="slide">
-              <div className="user_info">
-                <img src={user_4} alt="" />
-                <div>
-                  <h3>Willian Jackson</h3>
-                  <span>Edusity,USA</span>
-                </div>
-              </div>
-              <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
-              </p>
-            </div>
-          </li>
+        <li>
+  <div className="slide">
+    <div className="user_info">
+      <img src={user_1} alt="" />
+      <div>
+        <h3>Elsa Shawn</h3>
+        <span>Edusity, USA</span>
+      </div>
+    </div>
+    <p>
+      The education I received at Edusity has been truly transformative. The courses are highly interactive and taught by industry-leading professionals who inspire learning every day.
+    </p>
+  </div>
+</li>
+<li>
+  <div className="slide">
+    <div className="user_info">
+      <img src={user_2} alt="" />
+      <div>
+        <h3>Willian Jackson</h3>
+        <span>Edusity, USA</span>
+      </div>
+    </div>
+    <p>
+      Choosing Edusity for my studies was a life-changing decision. The university's dedication to excellence and innovation has helped me achieve my academic and personal goals.
+    </p>
+  </div>
+</li>
+<li>
+  <div className="slide">
+    <div className="user_info">
+      <img src={user_3} alt="" />
+      <div>
+        <h3>Sophia Adams</h3>
+        <span>Edusity, USA</span>
+      </div>
+    </div>
+    <p>
+      At Edusity, I discovered a passion for learning that I never knew I had. The faculty's support and the university's focus on holistic development have been invaluable.
+    </p>
+  </div>
+</li>
+<li>
+  <div className="slide">
+    <div className="user_info">
+      <img src={user_4} alt="" />
+      <div>
+        <h3>Daniel Roberts</h3>
+        <span>Edusity, USA</span>
+      </div>
+    </div>
+    <p>
+      The vibrant and inclusive campus environment at Edusity has made my academic journey unforgettable. I've gained the skills and confidence needed for a successful career.
+    </p>
+  </div>
+</li>
+
         </ul>
       </div>
     </div>

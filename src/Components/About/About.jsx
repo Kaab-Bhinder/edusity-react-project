@@ -2,12 +2,13 @@ import React from 'react'
 import "./About.css"
 import about_img from "../../assets/about.png"
 import play from "../../assets/play-icon.png"
-const About = () => {
+const About = ({setPlay}) => {
   return (
     <div className='about'>
       <div className="left">
         <img className="ab_im" src={about_img} alt="" />
-        <img className="play" src={play} alt="" />
+        <img className="play" src={play} alt=""  onClick={()=>{
+          console.log("cicked");setPlay(true)}}/>
       </div>
       <div className="right">
         <h3>ABOUT UNIVERSITY</h3>
